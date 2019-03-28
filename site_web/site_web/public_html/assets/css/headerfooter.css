@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color : dimgray;
+
+}
+.ui-autocomplete-input{
+    background-color: white;
+}
+
+.alert{
+    margin-bottom: 0;
+}
+#content{
+    margin: 25px;
+    flex : 1;
+}
+
+a{
+    color : dimgray;
+}
+
+a:hover{
+    color : #5bc0de;
+}
+
+#deconnexion{
+    width : 100%;
+}
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active,
+.ui-button:active,
+.ui-button.ui-state-active:hover {
+    border-color: #5bc0de;
+    background-color: #5bc0de;
+}
+.page-item.active .page-link{
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+.card-deck{
+    margin-left :2px;
+    width : 100%;
+}
+.search-bar {
+    margin-left : 25px;
+}
+.card-img-left {
+    width : 150px;
+    height : 150px;
+    margin : 10px;
+}
+
+.full-img {
+    max-width: 100%;
+}
+td {
+    text-align :center;
+    vertical-align: middle;
+}
+th {
+    text-align: center;
+}
+
+.table td, .table th{
+    vertical-align: middle;
+}
+
+.table{
+    color : dimgray;
+
+}
+.titre-produit{
+    font-size: 1.2em;
+}
+.card-block{
+    margin : 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
